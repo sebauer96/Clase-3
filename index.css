@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "LexendGiga"; /*Este es el nombre*/
+    src: url("./fonts/LexendGiga-Regular.ttf");
+}
+
+.titulo {
+    color: blue;
+    font-size: 50px;
+    border-bottom: 2px solid red;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+}
+
+#tituloPrimero {
+    color: rgba(120, 50, 10,1);
+    font-size: 80px;
+    font-family: 'LexendGiga', sans-serif;/*La usamos aca*/
+}
+
+.img{
+    border: 20px solid rgba(24, 100, 200, 0.3);
+    box-shadow: 10px 10px 100px 0px rgba(20,35,156,0.75);
+}
+
+.caja-volver-futuro{
+    text-align: center;
+}
+
+#pelota-azul{
+    display: inline-block;
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+}
+#pelota-verde{
+    display: inline-block;
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+}
+#pelota-roja{
+    display: inline-block;
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+}
+
+.contenedor-telefe{
+    text-align: center;
+}
+
+.caja-texto{
+    display: inline-block;
+    width: 49%;
+}
+
+.caja-imagen{
+    display: inline-block;
+    width: 49%;
+}
+
+.titulo-texto{
+    display: inline-block;
+}
+
+.descripcion-texto {
+    display: inline-block;
+}
+
+.caja-descripcion{
+    text-align: center;
+}
